@@ -14,6 +14,16 @@
 		5D3EEE381A6C9EAB008D16E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EEE371A6C9EAB008D16E8 /* Images.xcassets */; };
 		5D3EEE3B1A6C9EAB008D16E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EEE391A6C9EAB008D16E8 /* LaunchScreen.xib */; };
 		5D3EEE471A6C9EAB008D16E8 /* FormViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EEE461A6C9EAB008D16E8 /* FormViewTests.m */; };
+		5D4F97A41A6CF4EE00D0C9BB /* HeadColView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F97971A6CF4EE00D0C9BB /* HeadColView.m */; };
+		5D4F97A61A6CF4EE00D0C9BB /* NormalColView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F979A1A6CF4EE00D0C9BB /* NormalColView.m */; };
+		5D4F97A81A6CF4EE00D0C9BB /* ReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F979D1A6CF4EE00D0C9BB /* ReportCell.m */; };
+		5D4F97A91A6CF4EE00D0C9BB /* ReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D4F979E1A6CF4EE00D0C9BB /* ReportCell.xib */; };
+		5D4F97AA1A6CF4EE00D0C9BB /* ReportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F97A01A6CF4EE00D0C9BB /* ReportView.m */; };
+		5D4F97AF1A6CF52100D0C9BB /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F97AE1A6CF52100D0C9BB /* UIView+Additions.m */; };
+		5DF318E91AF9F63100ADE3CA /* TraitContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF318E41AF9F63100ADE3CA /* TraitContentView.m */; };
+		5DF318EA1AF9F63100ADE3CA /* TraitContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF318E51AF9F63100ADE3CA /* TraitContentView.xib */; };
+		5DF318EB1AF9F63100ADE3CA /* TraitItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF318E71AF9F63100ADE3CA /* TraitItemView.m */; };
+		5DF318EC1AF9F63100ADE3CA /* TraitItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF318E81AF9F63100ADE3CA /* TraitItemView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,23 @@
 		5D3EEE401A6C9EAB008D16E8 /* FormViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3EEE451A6C9EAB008D16E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D3EEE461A6C9EAB008D16E8 /* FormViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormViewTests.m; sourceTree = "<group>"; };
+		5D4F97961A6CF4EE00D0C9BB /* HeadColView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadColView.h; sourceTree = "<group>"; };
+		5D4F97971A6CF4EE00D0C9BB /* HeadColView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadColView.m; sourceTree = "<group>"; };
+		5D4F97991A6CF4EE00D0C9BB /* NormalColView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalColView.h; sourceTree = "<group>"; };
+		5D4F979A1A6CF4EE00D0C9BB /* NormalColView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalColView.m; sourceTree = "<group>"; };
+		5D4F979C1A6CF4EE00D0C9BB /* ReportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportCell.h; sourceTree = "<group>"; };
+		5D4F979D1A6CF4EE00D0C9BB /* ReportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportCell.m; sourceTree = "<group>"; };
+		5D4F979E1A6CF4EE00D0C9BB /* ReportCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportCell.xib; sourceTree = "<group>"; };
+		5D4F979F1A6CF4EE00D0C9BB /* ReportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportView.h; sourceTree = "<group>"; };
+		5D4F97A01A6CF4EE00D0C9BB /* ReportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportView.m; sourceTree = "<group>"; };
+		5D4F97AD1A6CF52100D0C9BB /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		5D4F97AE1A6CF52100D0C9BB /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		5DF318E31AF9F63100ADE3CA /* TraitContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitContentView.h; sourceTree = "<group>"; };
+		5DF318E41AF9F63100ADE3CA /* TraitContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitContentView.m; sourceTree = "<group>"; };
+		5DF318E51AF9F63100ADE3CA /* TraitContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraitContentView.xib; sourceTree = "<group>"; };
+		5DF318E61AF9F63100ADE3CA /* TraitItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitItemView.h; sourceTree = "<group>"; };
+		5DF318E71AF9F63100ADE3CA /* TraitItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitItemView.m; sourceTree = "<group>"; };
+		5DF318E81AF9F63100ADE3CA /* TraitItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraitItemView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +108,14 @@
 		5D3EEE291A6C9EAB008D16E8 /* FormView */ = {
 			isa = PBXGroup;
 			children = (
+				5D4F97AD1A6CF52100D0C9BB /* UIView+Additions.h */,
+				5D4F97AE1A6CF52100D0C9BB /* UIView+Additions.m */,
+				5DF318E21AF9F63100ADE3CA /* TraitView */,
+				5D4F97951A6CF4EE00D0C9BB /* ReportView */,
 				5D3EEE2E1A6C9EAB008D16E8 /* AppDelegate.h */,
 				5D3EEE2F1A6C9EAB008D16E8 /* AppDelegate.m */,
 				5D3EEE311A6C9EAB008D16E8 /* ViewController.h */,
 				5D3EEE321A6C9EAB008D16E8 /* ViewController.m */,
-				5D3EEE341A6C9EAB008D16E8 /* Main.storyboard */,
-				5D3EEE371A6C9EAB008D16E8 /* Images.xcassets */,
-				5D3EEE391A6C9EAB008D16E8 /* LaunchScreen.xib */,
 				5D3EEE2A1A6C9EAB008D16E8 /* Supporting Files */,
 			);
 			path = FormView;
@@ -96,6 +124,9 @@
 		5D3EEE2A1A6C9EAB008D16E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D3EEE341A6C9EAB008D16E8 /* Main.storyboard */,
+				5D3EEE371A6C9EAB008D16E8 /* Images.xcassets */,
+				5D3EEE391A6C9EAB008D16E8 /* LaunchScreen.xib */,
 				5D3EEE2B1A6C9EAB008D16E8 /* Info.plist */,
 				5D3EEE2C1A6C9EAB008D16E8 /* main.m */,
 			);
@@ -117,6 +148,35 @@
 				5D3EEE451A6C9EAB008D16E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D4F97951A6CF4EE00D0C9BB /* ReportView */ = {
+			isa = PBXGroup;
+			children = (
+				5D4F97961A6CF4EE00D0C9BB /* HeadColView.h */,
+				5D4F97971A6CF4EE00D0C9BB /* HeadColView.m */,
+				5D4F97991A6CF4EE00D0C9BB /* NormalColView.h */,
+				5D4F979A1A6CF4EE00D0C9BB /* NormalColView.m */,
+				5D4F979C1A6CF4EE00D0C9BB /* ReportCell.h */,
+				5D4F979D1A6CF4EE00D0C9BB /* ReportCell.m */,
+				5D4F979E1A6CF4EE00D0C9BB /* ReportCell.xib */,
+				5D4F979F1A6CF4EE00D0C9BB /* ReportView.h */,
+				5D4F97A01A6CF4EE00D0C9BB /* ReportView.m */,
+			);
+			path = ReportView;
+			sourceTree = "<group>";
+		};
+		5DF318E21AF9F63100ADE3CA /* TraitView */ = {
+			isa = PBXGroup;
+			children = (
+				5DF318E31AF9F63100ADE3CA /* TraitContentView.h */,
+				5DF318E41AF9F63100ADE3CA /* TraitContentView.m */,
+				5DF318E51AF9F63100ADE3CA /* TraitContentView.xib */,
+				5DF318E61AF9F63100ADE3CA /* TraitItemView.h */,
+				5DF318E71AF9F63100ADE3CA /* TraitItemView.m */,
+				5DF318E81AF9F63100ADE3CA /* TraitItemView.xib */,
+			);
+			path = TraitView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3EEE361A6C9EAB008D16E8 /* Main.storyboard in Resources */,
+				5D4F97A91A6CF4EE00D0C9BB /* ReportCell.xib in Resources */,
+				5DF318EC1AF9F63100ADE3CA /* TraitItemView.xib in Resources */,
 				5D3EEE3B1A6C9EAB008D16E8 /* LaunchScreen.xib in Resources */,
 				5D3EEE381A6C9EAB008D16E8 /* Images.xcassets in Resources */,
+				5DF318EA1AF9F63100ADE3CA /* TraitContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4F97AF1A6CF52100D0C9BB /* UIView+Additions.m in Sources */,
+				5D4F97A41A6CF4EE00D0C9BB /* HeadColView.m in Sources */,
+				5D4F97AA1A6CF4EE00D0C9BB /* ReportView.m in Sources */,
 				5D3EEE331A6C9EAB008D16E8 /* ViewController.m in Sources */,
 				5D3EEE301A6C9EAB008D16E8 /* AppDelegate.m in Sources */,
+				5DF318E91AF9F63100ADE3CA /* TraitContentView.m in Sources */,
 				5D3EEE2D1A6C9EAB008D16E8 /* main.m in Sources */,
+				5D4F97A61A6CF4EE00D0C9BB /* NormalColView.m in Sources */,
+				5DF318EB1AF9F63100ADE3CA /* TraitItemView.m in Sources */,
+				5D4F97A81A6CF4EE00D0C9BB /* ReportCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FormView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FormView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +484,7 @@
 				5D3EEE4C1A6C9EAB008D16E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D3EEE4D1A6C9EAB008D16E8 /* Build configuration list for PBXNativeTarget "FormViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +493,7 @@
 				5D3EEE4F1A6C9EAB008D16E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
